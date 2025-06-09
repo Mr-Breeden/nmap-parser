@@ -13,7 +13,7 @@ A Bash script to extract and format open ports from **greppable Nmap scan result
 
 ## 🌜 Usage
 ```bash
-./nmap_parser.sh <nmap_results_file>
+./parser.sh <nmap_results_file>
 ```
 
 ### Example:
@@ -37,7 +37,7 @@ Host: 192.168.1.2 ()    Ports: 3306/open/tcp//mysql///
    ```
 2. Make the script executable:
    ```bash
-   chmod +x nmap_parser.sh
+   chmod +x parser.sh
    ```
 
 ## 🖥️ Generating Nmap Greppable Output
